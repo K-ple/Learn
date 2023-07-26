@@ -1,0 +1,1 @@
+print(''.join('long ' for i in range(int(input())//4))+'int')
