@@ -2,14 +2,23 @@
 <html lang="ko">
     <head>
         <meta charset="UTF-8">
-
+        <link rel="stylesheet" href="log.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+          </style>
     </head>
-    <body></body>
-        <button type="button">O Log in with Google</button> <br> 
-        or <br>
-        <input type="text" name="Username" placeholder="Username"> <br>
-        <input type="password" name="ps" placeholder="password"> <br>
-        <button type="submit">LOGIN</button><br>
-        <button>Forgot your password?</button>
-        </body>
+    <body>
+    <div class="main">
+        <button class="Roboto" type="button" id="google"><i class="fa-brands fa-google"></i> Log in with Google</button>
+        <p class="Roboto">or</p>
+        
+        <input type="text" id="idps" name="Username" placeholder="Username">
+        <input type="password" id="idps" name="ps" placeholder="password"> <br>
+        <button type="submit" class="Roboto" id="login">LOGIN</button><br>
+        <p id="forgot">Forgot your password?</p>
+        
+    </div>    
+    </body>
 </html>
