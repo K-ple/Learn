@@ -1,0 +1,50 @@
+div.main{
+    border: 1px solid grey;
+    width: 304px;
+    height: 390px;
+    text-align: center;
+    
+}
+.Roboto{
+    font-family: 'Roboto', sans-serif;
+}
+#google{
+    font-size: 14px;
+    font-weight: bold;
+    color: #504444;
+    width: 228px;
+    height: 44px;
+    background-color: #fff;
+    margin-top: 28px;
+    border: 2px solid;
+    
+    
+    
+    
+}
+p{
+    font-size: 16px;
+    font-weight: bold;
+}
+#idps{
+    width: 228px;
+    height: 44px;
+    font-size: 14px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    background-color: #eaeaea;
+    box-sizing: border-box;
+    border: hidden;
+}
+#login{
+    background-color: #373f3c;
+    color: #fff;
+    font-size: 14px;
+    width: 228px;
+    height: 44px;
+    margin-bottom: 20px;
+}
+#forgot{
+    font-size: 14px;
+    color: #2c3432;
+}
