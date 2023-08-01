@@ -1,0 +1,31 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 346px;
+    height: 265px;
+    box-sizing: content-box;
+    background-color: #f8f9fa;
+    border: 1px gray solid;
+    font-size: 13px;
+    font-family: 'Nanum Gothic', sans-serif;}
+ol li{
+    list-style: none;
+    margin-left: 5px;
+    margin-bottom: 12px;
+    
+}
+ol li ol li{
+    margin-left: 30px;
+}
+ol li ol li ol li{
+    margin-left: 58px;
+}
+.mok{
+    margin-top: 6px;
+    
+    text-align: center;
+    font-weight: bold;
+}
