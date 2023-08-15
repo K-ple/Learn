@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <button onclick="printInfo()">Window 객체 속성</button>
+    <script>
+        let count = 0;
+        function printInfo(){
+            setInterval(() => {
+                console.log(`브라우저 너비: ${window.innerWidth}`)
+                console.log(`브라우저 높이: ${window.innerHeight}`)
+                console.log(`창의 너비: ${window.outerWidth}`)
+                console.log(`창의 높이: ${window.outerHeight}`)
+                console.log(`창모니터간격 : ${window.screenLeft}`)
+                console.log(`스크롤위치: ${window.scrollY}`)
+                count++
+                if (count == 30){
+                    clearInterval();
+                }
+            }, 5000);
+                
+        }
+    </script>
+
+    <button onclick="openpop()">창열기</button>
+    <button onclick="closepop()">창닫기</button>
+    <script>
+        function openpop(){
+            window.open("login.html","로그인팝업",'width = 800','height= 600');
+        }
+        function closepop(){
+         window.close();   
+        }
+    </script>
+</body>
+</html>

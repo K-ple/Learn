@@ -10,14 +10,44 @@
           </style>
     </head>
     <body>
+        <form action="#">
         <div class="main">
         <button class="Roboto" type="button" id="google"><i class="fa-brands fa-google"></i> Log in with Google</button>
         <p class="Roboto">or</p>
         <input type="text" id="idps" name="Username" placeholder="Username">
         <input type="password" id="idps" name="ps" placeholder="password"> <br>
         <button type="submit" class="Roboto" id="login">LOGIN</button><br>
-        <p id="forgot">Forgot your password?</p>
+        <a id="forgot">Forgot your password?</a>
         
-    </div>    
+    </div>
+    </form>
+    <script>
+        const nam = document.getElementsByName("Username")[0];
+        const pw = document.getElementsByName("ps")[0];
+        const lo = document.getElementById("login");
+        const fo = document.getElementsByTagName('form');
+
+        lo.addEventListener("click", function check(sub){
+            sub.preventDefault();
+            const name_check = nam.value;
+            const pass_check = pw.value;
+            if(name_check ===''){
+                alert("아이디를 입력해주세요.");
+            }
+            else if(!name_check.includes('@')){
+                alert("아이디는 이메일 형식으로 입력해 주세요.");
+            }
+            else if(pass_check === ''){
+                alert("비밀번호를 입력해 주세요.");
+            }
+            else if(pass_check.length <= 4){
+                alert("비밀번호는 5자리 이상 입력해 주세요.");
+            }
+            else{
+                fo.submit();
+                
+            }
+        }) 
+    </script>
     </body>
 </html>
