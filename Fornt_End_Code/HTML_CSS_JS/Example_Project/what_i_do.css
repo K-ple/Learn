@@ -1,0 +1,5 @@
+section .do-me::after{
+    content: "";
+    display: block;
+    clear: both;
+}
