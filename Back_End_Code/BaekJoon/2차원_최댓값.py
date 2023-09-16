@@ -1,4 +1,4 @@
-h = []
+ha = []
 for i in range(9):
     h.append([int(j) for j in input().split()])
 check = []
