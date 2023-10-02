@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>watch </title>
+    </head>
+    <body>
+        <div id="app">
+            <input v-model="message">
+            
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
+        <script>
+            new Vue({
+                el: '#app',
+                data: {
+                    message: 'Hello Vue.js!'
+                    ,count: 0
+                },
+                watch: {
+                    message: function(data) {
+                        console.log("message값이 바뀝니다 : ", data);
+                        this.count += 1;
+                        console.log("총"+this.count+"번 바꿨습니다");
+                    }
+                }
+            })
+        </script>
+    </body>
+</html>
