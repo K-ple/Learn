@@ -1,5 +1,5 @@
 {
-  "name": "vue-todo",
+  "name": "todoit",
   "description": "A Vue.js project",
   "version": "1.0.0",
   "author": "Kim TaeUk <alex0802@naver.com>",
@@ -10,7 +10,6 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "vue": "^2.5.11"
   },
   "browserslist": [
@@ -19,16 +18,16 @@
     "not ie <= 8"
   ],
   "devDependencies": {
-    "babel-core": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-3": "^6.24.1",
     "cross-env": "^5.0.5",
-    "css-loader": "^0.28.7",
+    "css-loader": "^6.8.1",
     "file-loader": "^1.1.4",
-    "vue-loader": "^13.0.5",
+    "vue-loader": "^17.2.2",
     "vue-template-compiler": "^2.4.4",
-    "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.9.1"
+    "webpack": "^5.88.2",
+    "webpack-dev-server": "^4.15.1"
   }
 }
