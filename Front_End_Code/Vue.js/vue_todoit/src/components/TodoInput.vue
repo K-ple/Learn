@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div class="inputBox shadow">
         <input type="text" v-model="newTodoItem" placeholder="Type what you have todo" v-on:keyup.enter="addTodo">
         <span class="addContainer" v-on:click="addTodo">
-            <font-awesome-icon :icon="['fab', 'meta']" />
+        <i class="addBtn fas fa-plus" aria-hidden="true"></i>
         </span>
     </div>
 </template>
@@ -34,13 +34,13 @@
     input:focus {
         outline: none;
     }
-    .inputbox {
+    .inputBox {
         background: white;
         height: 50px;
         line-height: 50px;
         border-radius: 5px;
     }
-    .inputbox input {
+    .inputBox input {
         border-style: none;
         font-size: 0.9rem;
     }

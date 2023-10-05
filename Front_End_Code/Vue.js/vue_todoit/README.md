@@ -1,4 +1,4 @@
-# todoit
+# vue_todoit
 
 > A Vue.js project
 
