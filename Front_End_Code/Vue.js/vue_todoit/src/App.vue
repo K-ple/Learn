@@ -2,7 +2,7 @@
   <div id="app">
   <TodoHeader></TodoHeader>
   <TodoInput v-on:addTodo="addTodo"></TodoInput>
-  <TodoList v-bind:propsdata="todoTiems"></TodoList>
+  <TodoList v-bind:propsdata="todoItems"></TodoList>
   <TodoFooter></TodoFooter>
 </div>
 </template>
@@ -18,6 +18,12 @@
       return {
         todoItems: []
       }
+    },
+    methods: {
+      addTodo(todoitem){
+      localStorage.setItem(todoitem, todoitem);
+      this.todoItems.push(todoitem);
+    },
     },
     components: {
       'TodoHeader': TodoHeader,
