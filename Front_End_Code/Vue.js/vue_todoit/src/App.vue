@@ -1,8 +1,8 @@
 <template>
   <div id="app">
   <TodoHeader></TodoHeader>
-  <TodoInput></TodoInput>
-  <TodoList></TodoList>
+  <TodoInput v-on:addTodo="addTodo"></TodoInput>
+  <TodoList v-bind:propsdata="todoTiems"></TodoList>
   <TodoFooter></TodoFooter>
 </div>
 </template>
@@ -14,6 +14,11 @@
   import TodoFooter from './components/TodoFooter.vue'
 
   export default {
+    data() {
+      return {
+        todoItems: []
+      }
+    },
     components: {
       'TodoHeader': TodoHeader,
       'TodoInput' : TodoInput,
