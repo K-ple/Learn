@@ -14,24 +14,11 @@
 
 <script>
     export default {
-        props: ['propsdata']
-        ,
-        data() {
-            return {
-                todoItems: []
-            }
-        },
-        created() {
-            if (localStorage.length > 0){
-                for (var i=0; i < localStorage.length; i++) {
-                    this.todoItems.push(localStorage.key(i));
-                }
-            }
-        },
+        props: ['propsdata'],
+        
         methods: {
             removeTodo(todoItem, index) {
-                localStorage.removeItem(todoItem);
-                this.todoitems.splice(index, 1);
+                this.$emit('removeTodo', todoItem, index);
             }
         },
     }
