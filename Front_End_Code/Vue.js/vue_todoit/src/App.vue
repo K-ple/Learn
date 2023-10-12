@@ -22,16 +22,16 @@
     
     
     methods: {
-      addTodo(todoitem){
-      localStorage.setItem(todoitem, todoitem);
-      this.todoItems.push(todoitem);
+      addTodo(todoItem){
+      localStorage.setItem(todoItem, todoItem);
+      this.todoItems.push(todoItem);
     },
       clearAll() {
         localStorage.clear();
         this.todoItems = [];
       },
-      removeTodo() {
-        localStorage.removeItem(todoitem);
+      removeTodo(todoItem,index) {
+        localStorage.removeItem(todoItem);
         this.todoItems.splice(index,1);
       },
 
@@ -43,7 +43,8 @@
       'TodoInput' : TodoInput,
       'TodoList' : TodoList,
       'TodoFooter' : TodoFooter
-    },created() {
+    },
+    created() {
             if (localStorage.length > 0){
                 for (var i=0; i < localStorage.length; i++) {
                     this.todoItems.push(localStorage.key(i));
