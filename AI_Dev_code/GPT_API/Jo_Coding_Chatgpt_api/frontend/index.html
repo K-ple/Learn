@@ -1,40 +1,17 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <button onclick="sendForuneRequest()">요청하기</button>
-        <script>
-            async function sendForuneRequest() {
-    const url = 'http://localhost:3000/fortuneTell';
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune Teller</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <button id="requestButton">운세 요청하기</button>
+        <div id="fortuneOutput"></div>
+    </div>
 
-    try {
-        const response = await fetch(url, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            // 서버에 보낼 데이터가 없다면 빈 객체를 전송합니다.
-            body: JSON.stringify({name: 'John'}),
-        });
-
-        // HTTP 응답 상태가 200 OK인 경우에만 JSON을 추출합니다.
-        if (response.ok) {
-            const data = await response.json();
-            console.log('운세:', data);
-            // 여기에서 운세를 화면에 표시하거나 다른 작업을 수행할 수 있습니다.
-        } else {
-            console.error('서버 응답이 실패했습니다.', response.status);
-        }
-
-    } catch (error) {
-        console.error('운세를 가져오는 동안 에러가 발생했습니다:', error);
-    }
-}
-
-        </script>
-    
-    </body>
+    <script src="script.js"></script>
+</body>
 </html>
