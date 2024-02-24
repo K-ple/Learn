@@ -3,15 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fortune Teller</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>운세 채팅</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .chat-container {
+            width: 400px;
+            height: 500px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .chat-messages {
+            height: 400px;
+            overflow-y: scroll;
+            padding: 10px;
+        }
+
+        .message {
+            background-color: #f9f9f9;
+            padding: 8px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+
+        .user-message {
+            background-color: #e2f7cb;
+            align-self: flex-end;
+        }
+
+        .fortune-message {
+            background-color: #bde4ff;
+        }
+
+        .input-container {
+            display: flex;
+            padding: 10px;
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 8px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <button id="requestButton">운세 요청하기</button>
-        <div id="fortuneOutput"></div>
+    <div class="chat-container">
+        <div class="chat-messages" id="chatMessages">
+            <div class="message user-message">당신의 운세를 알려드립니다. 클릭해 주세요.</div>
+        </div>
+        <div class="input-container">
+            <input type="text" id="userInput" placeholder="메시지를 입력하세요...">
+            <button onclick="sendMessage()">전송</button>
+        </div>
     </div>
+    
+    <script>
+        const chatMessages = document.getElementById('chatMessages');
+        const userInput = document.getElementById('userInput');
 
-    <script src="script.js"></script>
+        function appendMessage(message, isUser) {
+            const messageClass = isUser ? 'user-message' : 'fortune-message';
+            const newMessageElement = document.createElement('div');
+            newMessageElement.className = `message ${messageClass}`;
+            newMessageElement.textContent = message;
+            chatMessages.appendChild(newMessageElement);
+        }
+
+        function sendMessage() {
+            const message = userInput.value;
+            appendMessage(message, true);
+            userInput.value = '';
+
+            sendForuneRequest();
+        }
+
+        async function sendForuneRequest() {
+            const url = 'http://localhost:3000/fortuneTell';
+
+            try {
+                const response = await fetch(url, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ name: 'John' }),
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    console.log('Response:', data.assistant);
+                    appendMessage(`${data.assistant}`, false);
+                } else {
+                    appendMessage('서버 응답이 실패했습니다.', false);
+                }
+            } catch (error) {
+                appendMessage(`운세를 가져오는 동안 에러가 발생했습니다: ${error}`, false);
+            }
+        }
+    </script>
 </body>
 </html>
