@@ -1,106 +1,40 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Fortune Telling Chat</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .chat-container {
-            max-width: 600px;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-            overflow-y: auto;
-            max-height: 400px; /* 채팅 창이 너무 길어지면 스크롤이 생기도록 설정 */
-        }
-        .message {
-            margin: 10px 0;
-        }
-        .user-message {
-            align-self: flex-end;
-            color: #007bff;
-        }
-        .assistant-message {
-            align-self: flex-start;
-            color: #333;
-        }
-        .input-container {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 20px;
-        }
-        input[type="text"] {
-            flex: 1;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        button {
-            padding: 10px 20px;
-            border: none;
-            background-color: #007bff;
-            color: #fff;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-left: 10px;
-        }
-    </style>
-</head>
-<body>
-    <div class="chat-container" id="chat-container">
-        <!-- Chat messages will be dynamically added here -->
-    </div>
-    <div class="input-container">
-        <input type="text" id="input-message" placeholder="Type a message..." onkeypress="handleKeyPress(event)">
-        <button onclick="sendMessage()">Send</button>
-    </div>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <button onclick="sendForuneRequest()">요청하기</button>
+        <script>
+            async function sendForuneRequest() {
+    const url = 'http://localhost:3000/fortuneTell';
 
-    <script>
-        function appendMessage(role, content) {
-            const chatContainer = document.getElementById('chat-container');
-            const newMessage = document.createElement('div');
-            newMessage.classList.add('message');
-            newMessage.classList.add(role + '-message');
-            newMessage.innerText = content;
-            chatContainer.appendChild(newMessage);
-            chatContainer.scrollTop = chatContainer.scrollHeight; // 새 메시지가 추가되면 자동으로 스크롤이 아래로 내려가게 함
-        }
+    try {
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            // 서버에 보낼 데이터가 없다면 빈 객체를 전송합니다.
+            body: JSON.stringify({name: 'John'}),
+        });
 
-        async function sendMessage() {
-            const message = document.getElementById('input-message').value;
-            if (message.trim() === '') {
-                return;
-            }
-            appendMessage('user', message);
-
-            const response = await fetch('http://localhost:5500/fortuneTell', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ message: message })
-            });
-
+        // HTTP 응답 상태가 200 OK인 경우에만 JSON을 추출합니다.
+        if (response.ok) {
             const data = await response.json();
-            appendMessage('assistant', data.assistant);
-            document.getElementById('input-message').value = '';
+            console.log('운세:', data);
+            // 여기에서 운세를 화면에 표시하거나 다른 작업을 수행할 수 있습니다.
+        } else {
+            console.error('서버 응답이 실패했습니다.', response.status);
         }
 
-        function handleKeyPress(event) {
-            if (event.keyCode === 13) {
-                event.preventDefault();
-                sendMessage();
-            }
-        }
-    </script>
-</body>
+    } catch (error) {
+        console.error('운세를 가져오는 동안 에러가 발생했습니다:', error);
+    }
+}
+
+        </script>
+    
+    </body>
 </html>
