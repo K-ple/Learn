@@ -82,6 +82,9 @@
     </div>
     
     <script>
+        let userMessages = [];
+        let assistantMessages = [];
+        
         const chatMessages = document.getElementById('chatMessages');
         const userInput = document.getElementById('userInput');
 
@@ -91,15 +94,20 @@
             newMessageElement.className = `message ${messageClass}`;
             newMessageElement.textContent = message;
             chatMessages.appendChild(newMessageElement);
+            
+            
         }
 
         function sendMessage() {
             const message = userInput.value;
             appendMessage(message, true);
-            userInput.value = '';
 
+            userInput.value = '';
+            userMessages.push(message);
             sendForuneRequest();
         }
+        
+        
 
         async function sendForuneRequest() {
             const url = 'http://localhost:3000/fortuneTell';
@@ -110,16 +118,26 @@
                     headers: {
                         'Content-Type': 'application/json',
                     },
-                    body: JSON.stringify({ name: 'John' }),
+                    body: JSON.stringify({ 
+                        userMessages: userMessages,
+                        assistantMessages: assistantMessages,
+                    }),
                 });
 
                 if (response.ok) {
                     const data = await response.json();
+                    
                     console.log('Response:', data.assistant);
+                    
                     appendMessage(`${data.assistant}`, false);
+                    assistantMessages.push(data.assistant);
+
+                    
                 } else {
                     appendMessage('서버 응답이 실패했습니다.', false);
                 }
+
+                
             } catch (error) {
                 appendMessage(`운세를 가져오는 동안 에러가 발생했습니다: ${error}`, false);
             }
