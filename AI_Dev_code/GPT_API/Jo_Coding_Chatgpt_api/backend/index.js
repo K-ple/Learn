@@ -2,7 +2,7 @@
 const OpenAI = require('openai')
 
 const openai = new OpenAI({
-    apiKey: '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', // This is the default and can be omitted
+    apiKey: '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', // This is the default and can be omitted
   });
   
 const express = require('express')
