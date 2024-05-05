@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5ef5154-54f1-459c-9871-0bdaa726271e" name="Changes" comment="2024-04-25">
-      <change beforePath="$PROJECT_DIR$/Front_End_Code/Vue.js/First-vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front_End_Code/Vue.js/First-vue/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front_End_Code/Vue.js/First-vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front_End_Code/Vue.js/First-vue/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front_End_Code/Vue.js/vue_todoit/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front_End_Code/Vue.js/vue_todoit/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front_End_Code/Vue.js/vue_todoit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front_End_Code/Vue.js/vue_todoit/package.json" afterDir="false" />
+    <list default="true" id="a5ef5154-54f1-459c-9871-0bdaa726271e" name="Changes" comment="2024-05-06">
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/__MACOSX/._kaggle-kakr-housing-data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/__MACOSX/kaggle-kakr-housing-data/._sample_submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/__MACOSX/kaggle-kakr-housing-data/._test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/__MACOSX/kaggle-kakr-housing-data/._train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/kaggle-kakr-housing-data/sample_submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/kaggle-kakr-housing-data/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/kaggle-kakr-housing-data/train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/3. 캐글 EDA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/3. 캐글 EDA.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/kaggle-kakr-housing-data.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/kaggle-kakr-housing-data.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,41 +59,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript 디버그.self1.html.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3.3_Classification.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DateTime_module.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Library_import.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Null.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Pratice_answer_0321.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Pratice_answer_0404.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.first_loading_csv_file.executor&quot;: &quot;Run&quot;,
-    &quot;Python.format.executor&quot;: &quot;Run&quot;,
-    &quot;Python.get().executor&quot;: &quot;Run&quot;,
-    &quot;Python.input.executor&quot;: &quot;Run&quot;,
-    &quot;Python.number_math.executor&quot;: &quot;Run&quot;,
-    &quot;Python.variable.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/alex0/PycharmProjects/Learn/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JavaScript 디버그.self1.html.executor": "Run",
+    "Python.3.3_Classification.executor": "Run",
+    "Python.DateTime_module.executor": "Run",
+    "Python.Library_import.executor": "Run",
+    "Python.Null.executor": "Run",
+    "Python.Pratice_answer_0321.executor": "Run",
+    "Python.Pratice_answer_0404.executor": "Run",
+    "Python.ex.executor": "Run",
+    "Python.first_loading_csv_file.executor": "Run",
+    "Python.format.executor": "Run",
+    "Python.get().executor": "Run",
+    "Python.input.executor": "Run",
+    "Python.number_math.executor": "Run",
+    "Python.variable.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/alex0/PycharmProjects/Learn/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/새 스크래치 파일&quot;: [
-      &quot;GitIgnore&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/새 스크래치 파일": [
+      "GitIgnore"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\alex0\PycharmProjects\Learn\AI_Dev_code\BoostCourse_AI_Training\Practice\Self_Review_1" />
@@ -96,6 +103,7 @@
       <recent name="C:\Users\alex0\PycharmProjects\Learn\AI_Dev_code\BoostCourse_AI_Training\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alex0\PycharmProjects\Learn\AI_Dev_code\BoostCourse_AI_Training\Practice\Self_Review_week_1\[1차시] 셀프리뷰 프로젝트 1" />
       <recent name="C:\Users\alex0\PycharmProjects\Learn\University\Python_Programming\2024-04-25" />
       <recent name="C:\Users\alex0\PycharmProjects\Learn\AI_Dev_code\BigData_ML\Free_Recipe" />
       <recent name="C:\Users\alex0\PycharmProjects\Learn\AI_Dev_code\BigData_ML\Free_Recipe\Data" />
@@ -135,7 +143,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
+        <option value="bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15" />
       </set>
     </attachedChunks>
   </component>
@@ -174,6 +182,7 @@
       <workItem from="1714362017129" duration="1112000" />
       <workItem from="1714445679115" duration="1336000" />
       <workItem from="1714617781657" duration="2075000" />
+      <workItem from="1714923444079" duration="1392000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <option name="closed" value="true" />
@@ -263,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714015087191</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2024-05-06">
+      <option name="closed" value="true" />
+      <created>1714923737059</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714923737059</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,13 +298,15 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Changes" />
     <MESSAGE value="2024-04-03 v1.0.0" />
     <MESSAGE value="2024-04-05" />
     <MESSAGE value="2024-04-17" />
     <MESSAGE value="2024-04-23" />
     <MESSAGE value="2024-04-25" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024-04-25" />
+    <MESSAGE value="2024-05-06" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024-05-06" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Learn$Null.coverage" NAME="Null 커버리지 결과" MODIFIED="1712126130149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Made_Code" />
