@@ -94,5 +94,3 @@ print('if {}:'.format(answer3))
 print('    '+'print("처음 입력했던 ()가 보다 ()더 큽니다.".{})'.format(answer4))
 print('if {}:'.format(answer5))
 print('    '+'print("처음 입력했던 ()가 보다 ()더 큽니다.".{})'.format(answer6))
-
-
