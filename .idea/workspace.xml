@@ -4,17 +4,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5ef5154-54f1-459c-9871-0bdaa726271e" name="Changes" comment="2024-05-06">
-      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/__MACOSX/._kaggle-kakr-housing-data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/__MACOSX/kaggle-kakr-housing-data/._sample_submission.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/__MACOSX/kaggle-kakr-housing-data/._test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/__MACOSX/kaggle-kakr-housing-data/._train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/kaggle-kakr-housing-data/sample_submission.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/kaggle-kakr-housing-data/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/kaggle-kakr-housing-data/train.csv" afterDir="false" />
+    <list default="true" id="a5ef5154-54f1-459c-9871-0bdaa726271e" name="Changes" comment="2024-04-25">
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Code_Review/[13차시] 코드리뷰 프로젝트 1/1. 코드 업그레이드_소개용.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Code_Review/[13차시] 코드리뷰 프로젝트 1/1. 코드 업그레이드_제출용.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Code_Review/[13차시] 코드리뷰 프로젝트 1/data/sample_submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Code_Review/[13차시] 코드리뷰 프로젝트 1/data/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Code_Review/[13차시] 코드리뷰 프로젝트 1/data/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Code_Review/[13차시] 코드리뷰 프로젝트 1/kaggle-kakr-housing-data.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/__MACOSX/._kaggle-kakr-housing-data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/__MACOSX/kaggle-kakr-housing-data/._sample_submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/__MACOSX/kaggle-kakr-housing-data/._test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/__MACOSX/kaggle-kakr-housing-data/._train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/kaggle-kakr-housing-data/sample_submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/kaggle-kakr-housing-data/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/kaggle-kakr-housing-data/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review/Self_Review_week_2/[12차시] 셀프리뷰 프로젝트 4/4. 캐글 제출.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review/Self_Review_week_2/[12차시] 셀프리뷰 프로젝트 4/data/__MACOSX/._kaggle-kakr-housing-data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review/Self_Review_week_2/[12차시] 셀프리뷰 프로젝트 4/data/__MACOSX/kaggle-kakr-housing-data/._sample_submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review/Self_Review_week_2/[12차시] 셀프리뷰 프로젝트 4/data/__MACOSX/kaggle-kakr-housing-data/._test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review/Self_Review_week_2/[12차시] 셀프리뷰 프로젝트 4/data/__MACOSX/kaggle-kakr-housing-data/._train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review/Self_Review_week_2/[12차시] 셀프리뷰 프로젝트 4/data/kaggle-kakr-housing-data/sample_submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review/Self_Review_week_2/[12차시] 셀프리뷰 프로젝트 4/data/kaggle-kakr-housing-data/submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review/Self_Review_week_2/[12차시] 셀프리뷰 프로젝트 4/data/kaggle-kakr-housing-data/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review/Self_Review_week_2/[12차시] 셀프리뷰 프로젝트 4/data/kaggle-kakr-housing-data/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review/Self_Review_week_2/[12차시] 셀프리뷰 프로젝트 4/kaggle-kakr-housing-data.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_2/[10차시] 하이퍼 파라미터 튜닝 연습/input/sample_submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_2/[10차시] 하이퍼 파라미터 튜닝 연습/input/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_2/[10차시] 하이퍼 파라미터 튜닝 연습/requirements-mac.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_2/[10차시] 하이퍼 파라미터 튜닝 연습/requirements-window.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_2/[10차시] 하이퍼 파라미터 튜닝 연습/하이퍼 파라미터 튜닝 연습.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_2/[9차시] 피처 엔지니어링 연습/catboost_info/catboost_training.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_2/[9차시] 피처 엔지니어링 연습/catboost_info/learn/events.out.tfevents" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_2/[9차시] 피처 엔지니어링 연습/catboost_info/learn_error.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_2/[9차시] 피처 엔지니어링 연습/catboost_info/test/events.out.tfevents" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_2/[9차시] 피처 엔지니어링 연습/catboost_info/test_error.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_2/[9차시] 피처 엔지니어링 연습/catboost_info/time_left.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_2/[9차시] 피처 엔지니어링 연습/input/sample_submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_2/[9차시] 피처 엔지니어링 연습/input/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_2/[9차시] 피처 엔지니어링 연습/requirements-mac.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_2/[9차시] 피처 엔지니어링 연습/requirements-window.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_2/[9차시] 피처 엔지니어링 연습/피처 엔지니어링 연습.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/3. 캐글 EDA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/3. 캐글 EDA.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/kaggle-kakr-housing-data.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/kaggle-kakr-housing-data.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Library_import.py" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_1/Library_import.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[1차시] 셀프리뷰 프로젝트 1/1. 코딩환경 설정 (Windows_Mac) 코드자료.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review/Self_Review_week_1/[1차시] 셀프리뷰 프로젝트 1/1. 코딩환경 설정 (Windows_Mac) 코드자료.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[1차시] 셀프리뷰 프로젝트 1/zen of python.csv" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review/Self_Review_week_1/[1차시] 셀프리뷰 프로젝트 1/zen of python.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/3. 캐글 EDA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/3. 캐글 EDA.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/__MACOSX/._kaggle-kakr-housing-data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/__MACOSX/kaggle-kakr-housing-data/._sample_submission.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/__MACOSX/kaggle-kakr-housing-data/._test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/__MACOSX/kaggle-kakr-housing-data/._train.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/kaggle-kakr-housing-data/sample_submission.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/kaggle-kakr-housing-data/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/data/kaggle-kakr-housing-data/train.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/kaggle-kakr-housing-data.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/Self_Review/Self_Review_week_1/[7차시] 셀프리뷰 프로젝트 3/kaggle-kakr-housing-data.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice_week_1/[2차시] 탐색적 자료 분석 연습/input/sample_submission.csv" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_1/[2차시] 탐색적 자료 분석 연습/input/sample_submission.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice_week_1/[2차시] 탐색적 자료 분석 연습/input/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_1/[2차시] 탐색적 자료 분석 연습/input/train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice_week_1/[2차시] 탐색적 자료 분석 연습/requirements-mac.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_1/[2차시] 탐색적 자료 분석 연습/requirements-mac.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice_week_1/[2차시] 탐색적 자료 분석 연습/requirements-window.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_1/[2차시] 탐색적 자료 분석 연습/requirements-window.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice_week_1/[2차시] 탐색적 자료 분석 연습/탐색적 자료 분석 연습.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_1/[2차시] 탐색적 자료 분석 연습/탐색적 자료 분석 연습.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice_week_1/[3차시] 데이터 전처리 연습/input/sample_submission.csv" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_1/[3차시] 데이터 전처리 연습/input/sample_submission.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice_week_1/[3차시] 데이터 전처리 연습/input/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_1/[3차시] 데이터 전처리 연습/input/train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice_week_1/[3차시] 데이터 전처리 연습/requirements-mac.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_1/[3차시] 데이터 전처리 연습/requirements-mac.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice_week_1/[3차시] 데이터 전처리 연습/requirements-window.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_1/[3차시] 데이터 전처리 연습/requirements-window.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice_week_1/[3차시] 데이터 전처리 연습/데이터 전처리 연습.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Practice/section_practice/section_practice_week_1/[3차시] 데이터 전처리 연습/데이터 전처리 연습.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +93,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "K-ple"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2927b225-853a-4777-996e-e1d1c34e6a9c" />
+        <option name="url" value="https://github.com/K-ple/Learn.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -103,11 +169,11 @@
       <recent name="C:\Users\alex0\PycharmProjects\Learn\AI_Dev_code\BoostCourse_AI_Training\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\alex0\PycharmProjects\Learn\AI_Dev_code\BoostCourse_AI_Training\Practice\Self_Review_week_1\[1차시] 셀프리뷰 프로젝트 1" />
+      <recent name="C:\Users\alex0\PycharmProjects\Learn\AI_Dev_code\BoostCourse_AI_Training\Practice\section_practice\section_practice_week_1" />
+      <recent name="C:\Users\alex0\PycharmProjects\Learn\AI_Dev_code\BoostCourse_AI_Training\Practice\Self_Review" />
+      <recent name="C:\Users\alex0\PycharmProjects\Learn\AI_Dev_code\BoostCourse_AI_Training\Practice\section_practice" />
       <recent name="C:\Users\alex0\PycharmProjects\Learn\University\Python_Programming\2024-04-25" />
       <recent name="C:\Users\alex0\PycharmProjects\Learn\AI_Dev_code\BigData_ML\Free_Recipe" />
-      <recent name="C:\Users\alex0\PycharmProjects\Learn\AI_Dev_code\BigData_ML\Free_Recipe\Data" />
-      <recent name="C:\Users\alex0\PycharmProjects\Learn" />
     </key>
   </component>
   <component name="RunManager">
@@ -125,7 +191,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AI_Dev_code/BoostCourse_AI_Training/Library_import.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\alex0\PycharmProjects\Learn\AI_Dev_code\BoostCourse_AI_Training\Practice\section_practice\section_practice_week_1\Library_import.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,7 +209,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15" />
+        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
       </set>
     </attachedChunks>
   </component>
@@ -182,7 +248,6 @@
       <workItem from="1714362017129" duration="1112000" />
       <workItem from="1714445679115" duration="1336000" />
       <workItem from="1714617781657" duration="2075000" />
-      <workItem from="1714923444079" duration="1392000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <option name="closed" value="true" />
@@ -272,15 +337,7 @@
       <option name="project" value="LOCAL" />
       <updated>1714015087191</updated>
     </task>
-    <task id="LOCAL-00012" summary="2024-05-06">
-      <option name="closed" value="true" />
-      <created>1714923737059</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1714923737059</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +348,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -305,8 +374,7 @@
     <MESSAGE value="2024-04-17" />
     <MESSAGE value="2024-04-23" />
     <MESSAGE value="2024-04-25" />
-    <MESSAGE value="2024-05-06" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024-05-06" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024-04-25" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Learn$Null.coverage" NAME="Null 커버리지 결과" MODIFIED="1712126130149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Made_Code" />
