@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5ef5154-54f1-459c-9871-0bdaa726271e" name="Changes" comment="2024-05-16">
-      <change afterPath="$PROJECT_DIR$/University/Big_Data/2024-06-03/week13_import_API.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/University/Big_Data/2024-06-03/week13_making_dataframe.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/University/Big_Data/2024-06-03/week13_use_seaborn.ipynb" afterDir="false" />
+    <list default="true" id="a5ef5154-54f1-459c-9871-0bdaa726271e" name="Changes" comment="2024-06-03">
+      <change afterPath="$PROJECT_DIR$/Made_Code/testing.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/University/Big_Data/2024-06-03/HomeWork_week13.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI_Dev_code/BigData_ML/Free_Recipe/first_loading_csv_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Dev_code/BigData_ML/Free_Recipe/first_loading_csv_file.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +206,12 @@
       <workItem from="1716522786473" duration="17000" />
       <workItem from="1717114226459" duration="15000" />
       <workItem from="1717392524787" duration="177000" />
-      <workItem from="1717392712311" duration="6819000" />
+      <workItem from="1717392712311" duration="7478000" />
+      <workItem from="1717462315066" duration="162000" />
+      <workItem from="1717462540267" duration="1084000" />
+      <workItem from="1717489498744" duration="507000" />
+      <workItem from="1717645547864" duration="981000" />
+      <workItem from="1717646554828" duration="316000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <option name="closed" value="true" />
@@ -314,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715846053977</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="2024-06-03">
+      <option name="closed" value="true" />
+      <created>1717402262097</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717402262097</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +364,8 @@
     <MESSAGE value="2024-04-25" />
     <MESSAGE value="2024-05-06" />
     <MESSAGE value="2024-05-16" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024-05-16" />
+    <MESSAGE value="2024-06-03" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024-06-03" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Learn$Null.coverage" NAME="Null 커버리지 결과" MODIFIED="1712126130149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Made_Code" />
