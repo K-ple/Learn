@@ -11,8 +11,8 @@ print(str(iris))
 #-------------------------------------------
 
 # Amelia 패키지를 이용한 결측값 시각화
-#install.packages("RcppArmadillo", dependencies=TRUE)
-#install.packages("Amelia", dependencies=TRUE)
+#install.packages("RcppArmadillo", type = "source")
+#install.packages("Amelia", type = "source")
 library(Amelia)
 copy_iris <- iris
 copy_iris[ sample(1:150, 15), 1] <- NA
