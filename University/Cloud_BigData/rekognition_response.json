@@ -1,0 +1,241 @@
+{
+  "Labels": [
+    {
+      "Name": "Grass",
+      "Confidence": 99.20051574707031,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Plant"
+        }
+      ],
+      "Aliases": [],
+      "Categories": [
+        {
+          "Name": "Plants and Flowers"
+        }
+      ]
+    },
+    {
+      "Name": "Animal",
+      "Confidence": 98.03470611572266,
+      "Instances": [],
+      "Parents": [],
+      "Aliases": [],
+      "Categories": [
+        {
+          "Name": "Animals and Pets"
+        }
+      ]
+    },
+    {
+      "Name": "Canine",
+      "Confidence": 98.03470611572266,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Animal"
+        },
+        {
+          "Name": "Mammal"
+        }
+      ],
+      "Aliases": [],
+      "Categories": [
+        {
+          "Name": "Animals and Pets"
+        }
+      ]
+    },
+    {
+      "Name": "Dog",
+      "Confidence": 98.03470611572266,
+      "Instances": [
+        {
+          "BoundingBox": {
+            "Width": 0.25333720445632935,
+            "Height": 0.6842471361160278,
+            "Left": 0.667026162147522,
+            "Top": 0.08767002820968628
+          },
+          "Confidence": 98.03470611572266
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.18539266288280487,
+            "Height": 0.5398043990135193,
+            "Left": 0.4584142565727234,
+            "Top": 0.22830885648727417
+          },
+          "Confidence": 97.59523010253906
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.15761128067970276,
+            "Height": 0.5982853174209595,
+            "Left": 0.12537989020347595,
+            "Top": 0.14045627415180206
+          },
+          "Confidence": 97.17117309570312
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.18332542479038239,
+            "Height": 0.6320011615753174,
+            "Left": 0.28509676456451416,
+            "Top": 0.13116919994354248
+          },
+          "Confidence": 96.6575698852539
+        }
+      ],
+      "Parents": [
+        {
+          "Name": "Animal"
+        },
+        {
+          "Name": "Canine"
+        },
+        {
+          "Name": "Mammal"
+        },
+        {
+          "Name": "Pet"
+        }
+      ],
+      "Aliases": [],
+      "Categories": [
+        {
+          "Name": "Animals and Pets"
+        }
+      ]
+    },
+    {
+      "Name": "Mammal",
+      "Confidence": 98.03470611572266,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Animal"
+        }
+      ],
+      "Aliases": [],
+      "Categories": [
+        {
+          "Name": "Animals and Pets"
+        }
+      ]
+    },
+    {
+      "Name": "Pet",
+      "Confidence": 98.03470611572266,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Animal"
+        }
+      ],
+      "Aliases": [],
+      "Categories": [
+        {
+          "Name": "Animals and Pets"
+        }
+      ]
+    },
+    {
+      "Name": "Outdoors",
+      "Confidence": 87.26558685302734,
+      "Instances": [],
+      "Parents": [],
+      "Aliases": [],
+      "Categories": [
+        {
+          "Name": "Nature and Outdoors"
+        }
+      ]
+    },
+    {
+      "Name": "Nature",
+      "Confidence": 77.66697692871094,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Outdoors"
+        }
+      ],
+      "Aliases": [],
+      "Categories": [
+        {
+          "Name": "Nature and Outdoors"
+        }
+      ]
+    },
+    {
+      "Name": "Hound",
+      "Confidence": 76.24287414550781,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Animal"
+        },
+        {
+          "Name": "Canine"
+        },
+        {
+          "Name": "Dog"
+        },
+        {
+          "Name": "Mammal"
+        },
+        {
+          "Name": "Pet"
+        }
+      ],
+      "Aliases": [],
+      "Categories": [
+        {
+          "Name": "Animals and Pets"
+        }
+      ]
+    },
+    {
+      "Name": "Terrier",
+      "Confidence": 68.0899887084961,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Animal"
+        },
+        {
+          "Name": "Canine"
+        },
+        {
+          "Name": "Dog"
+        },
+        {
+          "Name": "Mammal"
+        },
+        {
+          "Name": "Pet"
+        }
+      ],
+      "Aliases": [],
+      "Categories": [
+        {
+          "Name": "Animals and Pets"
+        }
+      ]
+    }
+  ],
+  "LabelModelVersion": "3.0",
+  "ResponseMetadata": {
+    "RequestId": "ba707bd2-afc5-408d-8acf-c365083556d2",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "ba707bd2-afc5-408d-8acf-c365083556d2",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "2335",
+      "date": "Wed, 17 Sep 2025 01:40:32 GMT"
+    },
+    "RetryAttempts": 0
+  }
+}
